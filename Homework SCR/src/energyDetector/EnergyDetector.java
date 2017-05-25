@@ -41,7 +41,7 @@ public class EnergyDetector {
 		double contatoreSopraSoglia = 0;
 		double probabilit‡PU = 0;
 		for(int j = 0; j < this.potenze.length; j++) {
-			if(this.potenze[j] > soglia)
+			if(this.potenze[j] < soglia)
 				contatoreSopraSoglia ++;	//numero potenze sopra la soglia
 		}
 
@@ -53,7 +53,7 @@ public class EnergyDetector {
 			System.out.println("Il primary User Ë presente, non possiamo trasmettere");
 		
 		//probabilit‡ di detection del segnale primario
-		System.out.println(probabilit‡PU + " %");
+		System.out.println("La probabilit‡ di detection Ë: " + probabilit‡PU + " %");
 	}
 	
 	public double[][] dividiInBlocchi(double[] sequenza, int numeroBlocchi, int numeroCampioni) {

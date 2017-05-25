@@ -9,7 +9,7 @@ import energyDetector.EnergyDetector;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-
+		
 		// valore SNR disponibili -13, -8, -5, +2
 		// prendo da tastiera il valore dell'SNR selezionato
 		System.out.println("Inserire un valore per l'SNR, scegliendo fra: -13, -8, -5, +2");
