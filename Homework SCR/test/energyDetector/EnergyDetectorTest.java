@@ -1,6 +1,6 @@
 package energyDetector;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; //non usati
 
 import org.junit.Test;
 
